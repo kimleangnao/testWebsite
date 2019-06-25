@@ -1,0 +1,2954 @@
+
+html, body {
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+nav {
+	width: 100%;
+	font-size: 1em;
+	line-height: 2em;
+	background-color: white;
+	position: relative;
+	top: 0;
+	z-index: 5;
+	text-align: center;
+}
+.clinic {
+	display: block;
+	text-align: center;
+}
+
+nav ul {
+	width: 100%;
+	background-color: #725ae7;
+    color: black;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0.1em;
+	cursor: pointer;
+}
+nav ul li:not(:last-child) {
+	box-sizing: border-box;
+}
+nav ul li a {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+/*
+nav ul .phone {
+	font-size: 0.8em;
+	line-height: 2.5em;
+
+}
+*/
+
+.bannerPicture {
+	width: 100%;
+	height: 20em;
+	z-index: 1;
+	background-color: #725ae7;
+	margin-top: 0.1em;
+}
+
+.bannerPicture .bannerText {
+	position: absolute;
+	top: 5em;
+	left: 7%;
+	color: white;
+	font-size: 1em;
+
+	
+}
+.bannerPicture .bannerText .mI {
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	width: 5em;
+	height: 2em;
+	font-size: 1em;
+	background-color: white;
+	border-radius: 1.5em;
+	border: 0em solid black;
+	
+}
+
+.bannerPicture .bannerText a {
+	text-decoration: none;
+	color: black;
+}
+.bannerPicture .bannerText h1, p {
+	text-align: center;
+}
+.bannerPicture .bannerText p {
+	font-size: 1.2em;
+}
+#rotateText {
+	text-align: center;
+	margin-top: 0.5em;
+	font-size: 1.5em;
+}
+.bannerAddress {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 1em;
+}
+.phone {
+	margin-top: 1em;
+}
+
+/*--------*/
+.service {
+	width: 100%;
+	height: 90em;
+	margin-top: 0em;
+	text-align: center;
+}
+.service h1 {
+	margin-top: 0.5em;
+}
+.service .box {
+	float: left;
+	width: 100%;
+	height: 20em;
+	background-color: white;
+	margin: 1em 0em;
+	position: relative;
+}
+.service .box .boxPictureFrame {
+	width: 100%;
+	height: 100%;
+}
+.service .box .boxPictureFrame .boxPicture {
+	width: 100%;
+	height: 80%;
+}
+.service .box .boxTitle {
+	width: 100%;
+	height: 20%;
+	background-color: black;
+	line-height: 4em;
+	color: white;
+}
+.service .box .boxPictureFrame .boxPicture:hover {
+	cursor: pointer;
+	box-shadow: 0em 0em 0.3em black;
+}
+
+
+
+
+/*-----------
+#arrowup {
+	font-size:3em;
+	position: absolute;
+	float: left;
+	margin-left: -19em;
+	color: black;
+	cursor: pointer;
+}
+.serviceDetail {
+	width: 100%;
+	height: 58em;
+	background-color: #F5F5F5;
+	text-align: center;
+}
+.serviceDetail h1 {
+	padding-top: 1em;
+}
+.serviceDetail .servicePicture {
+	float: left;
+	width:  45%;
+	height: 85%;
+	background-color: white;	
+	margin-top: 2em;
+	margin-left: 12%;
+}
+.serviceDetail .servicePicture .cP1 {
+	float: left;
+	width: 48.5%;
+	height: 48.5%;
+	background-color: grey;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-left: 1%;
+
+}
+.serviceDetail .servicePicture .cP1:hover {
+	box-shadow: 0em 0em 0.1em blue;
+	cursor: pointer;
+}
+
+.serviceDetail .servicePicture .cP2 {
+	float: left;
+	width: 48.5%;
+	height: 48.5%;
+	background-color: grey;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-left: 1%;	
+
+}
+.serviceDetail .servicePicture .cP2:hover {
+	box-shadow: 0em 0em 0.1em blue;
+	cursor: pointer;
+}
+
+.serviceDetail .servicePicture .cP3 {
+	float: left;
+	width: 48.5%;
+	height: 48%;
+	background-color: grey;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-left: 1%;
+	
+}
+.serviceDetail .servicePicture .cP3:hover {
+	box-shadow: 0em 0em 0.1em blue;
+	cursor: pointer;
+}
+
+.serviceDetail .servicePicture .cP4 {
+	float: left;
+	width: 48.5%;
+	height: 48%;
+	background-color: grey;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-left: 1%;
+
+}
+.serviceDetail .servicePicture .cP4:hover {
+	box-shadow: 0em 0em 0.1em blue;
+	cursor: pointer;
+}
+
+.serviceDetail .servicePictureDetail {
+	float: left;
+	width: 45em;
+	height: 45em;
+	background-color: white;
+	margin-top: 4em;
+	margin-left: 1em;
+}
+
+.serviceDetail .servicePicture .clp {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+*/
+
+
+/*------------*/
+.members {
+	width: 100%;
+	height: 40em;
+	text-align: center;
+}
+.members #about {
+	visibility: none;
+}
+.members h1 {
+	font-size: 1.5em;
+}
+.members .portraitFrame {
+	width: 100%;
+	height: 30em;
+}
+.members .portraitText {
+	width: 100%;
+	height: 100%;
+	background-color: #EAEAEA;
+}
+
+
+
+/*-----------*/
+.aboutDoctor {
+	width: 100%;
+	height: 25em;
+	text-align: center;
+}
+.aboutDoctor h1 {
+}
+.aboutDoctor .certBox1 {
+	float: left;
+	width: 5em;
+	height: 5em;
+}
+.aboutDoctor .certBox2 {
+	float: left;
+	width: 5em;
+	height: 5em;
+}
+.aboutDoctor .certBox3 {
+	float: left;
+	width: 5em;
+	height: 5em;
+}
+.aboutDoctor .certBox4 {
+	float: left;
+	width: 5em;
+	height: 5em;
+}
+.aboutDoctor .boxStyle {
+	margin: 3em;
+}
+.aboutDoctor .boxStyle:hover {
+	cursor: pointer;
+}
+.aboutDoctor .certBox1 .cbp {
+	width: 100%;
+	height: 80%;
+	background-color: grey;
+}
+.aboutDoctor .certBox2 .cbp {
+	width: 100%;
+	height: 80%;
+	background-color: grey;
+}
+.aboutDoctor .certBox3 .cbp {
+	width: 100%;
+	height: 80%;
+	background-color: grey;
+}
+.aboutDoctor .certBox4 .cbp {
+	width: 100%;
+	height: 80%;
+	background-color: grey;
+}
+
+.aboutDoctor .certBox1 .cbi1 {
+	width: 100%;
+	height: 20%;
+	font-size: 1em;
+
+}
+.aboutDoctor .certBox2 .cbi2 {
+	width: 100%;
+	height: 20%;
+	font-size: 1em;
+	
+}
+.aboutDoctor .certBox3 .cbi3 {
+	width: 100%;
+	height: 20%;
+	font-size: 1em;
+	
+}
+.aboutDoctor .certBox4 .cbi4 {
+	width: 100%;
+	height: 20%;
+	font-size: 1em;
+	
+}
+
+
+
+/*-----------*/
+
+
+.location {
+	width: 100%;
+	height: 50em;
+	text-align: center;
+	background-color: #EAEAEA;
+}
+
+.location #lt {
+}
+
+.mapDetail h1 {
+	margin-top: 1em;
+	text-align: left;
+	margin-top: 2em;
+}
+
+.location .mapFrame {
+
+	width: 100%;
+	height: 20em;
+	background-color: grey;
+	margin-top: 2em;
+}
+.location .mapDetail {
+	float: left;
+	width: 100%;
+	height: 30em;
+	background-color: lightgrey;
+	font-size:1em;
+}
+.locationAddress{
+	margin-top: 0.5em;
+	font-size: 1.5em;
+}
+.lP {
+	margin-top: 1em;
+	font-size: 1.5em;
+	
+}
+.lP a {
+	text-decoration: none;
+	color: black;
+}
+.lP a:hover {
+	text-decoration: underline;
+	text-decoration-color: crimson;
+}
+.lF {
+	font-size: 1.5em;
+	
+}
+
+
+/*--------*/
+
+footer {
+	clear: both;
+	margin-top: 0em;
+	bottom: 0;
+	width: 100%;
+	height: 30em;
+	background-color: #725ae7;
+	color: white;
+}
+
+.label {
+	font-size: 1.3em;
+}
+.label p {
+	margin-bottom: 0.5em;
+}
+.oH {
+	font-size: 1.2em;
+	font-family: consolas;
+}
+.oH p{
+}
+.oH .ohTitle {
+	text-align: center;
+}
+.oH .dow {
+	margin: 0.5em;
+}
+.oH span {
+}
+.name {
+	padding-top: 1em;
+	width: 100%;
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+.name .Dtitle {
+	font-size: 0.8em;
+}
+.socialMedia {
+	margin-top: 0.5em;
+	margin-left: 30%;
+}
+.socialMedia a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	margin: 0.5em;
+}
+
+
+
+
+@media only screen and (min-width: 1281px ) {
+
+	nav {
+		width: 100%;
+		font-size: 1.65em;
+		line-height: 2em;
+		background-color: white;
+		position: fixed;
+		top: 0;
+		z-index: 5;
+		text-align: center;
+
+	}
+	.clinic {
+		display: block;
+		text-align: center;
+		position: absolute;
+		margin-left: 10%;
+	}
+
+	nav ul {
+		width: 100%;
+		margin-left: 40%;
+		background-color: #725ae7;
+	    color: black;
+	    height: 0em;
+		border-bottom: 2em solid #725ae7;
+   		border-left: 2em solid white;
+   		text-align: left;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin:0 1em;
+		cursor: pointer;
+	}
+	nav ul li:not(:last-child) {
+		box-sizing: border-box;
+	}
+	nav ul li a {
+		cursor: pointer;
+		color: white;
+		text-decoration: none;
+	}
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+	/*
+	nav ul .phone {
+		font-size: 0.8em;
+		line-height: 2.5em;
+
+	}
+	*/
+
+	.bannerPicture {
+		width: 100%;
+		height: 40em;
+		z-index: 1;
+		background-color: #725ae7;
+		margin-top: 0em;
+	}
+
+	.bannerPicture .bannerText {
+		position: absolute;
+		top: 7em;
+		left: 40%;
+		color: white;
+		font-size: 1em;
+	}
+
+	.bannerPicture .bannerText .mI {
+		display: block;
+		margin-top: 1em;
+		width: 5em;
+		height: 2em;
+		font-size: 1.5em;
+		background-color: white;
+		border-radius: 1.5em;
+		border: 0em solid black;
+	}
+
+	.bannerPicture .bannerText a {
+		text-decoration: none;
+		color: black;
+	}
+	.bannerPicture .bannerText h1, p {
+		text-align: center;
+	}
+	.bannerPicture .bannerText p {
+		font-size: 1.5em;
+	}
+	#rotateText {
+		text-align: center;
+		margin-top: 2em;
+		font-size: 2em;
+	}
+	.bannerAddress {
+		text-align: center;
+		margin-top: 3em;
+		font-size: 1.5em;
+	}
+	.phone {
+		margin-top: 1em;
+	}
+
+	/*--------*/
+	.service {
+		width: 100%;
+		height: 40em;
+		margin-top: 0em;
+		text-align: center;
+	}
+	.service h1 {
+		margin-top: 1em;
+	}
+	.service .box {
+		float: left;
+		width: 20%;
+		height: 25em;
+		background-color: white;
+		margin: 1em 2.5%;
+		position: relative;
+	}
+	.service .box .boxPictureFrame {
+		width: 100%;
+		height: 100%;
+	}
+	.service .box .boxPictureFrame .boxPicture {
+		width: 100%;
+		height: 80%;
+	}
+	.service .box .boxTitle {
+		width: 100%;
+		height: 20%;
+		background-color: black;
+		line-height: 4em;
+		color: white;
+	}
+	.service .box .boxPictureFrame .boxPicture:hover {
+		cursor: pointer;
+		box-shadow: 0em 0em 0.3em black;
+	}
+
+
+
+
+	/*-----------
+	#arrowup {
+		font-size:3em;
+		position: absolute;
+		float: left;
+		margin-left: -19em;
+		color: black;
+		cursor: pointer;
+	}
+	.serviceDetail {
+		width: 100%;
+		height: 58em;
+		background-color: #F5F5F5;
+		text-align: center;
+	}
+	.serviceDetail h1 {
+		padding-top: 1em;
+	}
+	.serviceDetail .servicePicture {
+		float: left;
+		width:  45%;
+		height: 85%;
+		background-color: white;	
+		margin-top: 2em;
+		margin-left: 12%;
+	}
+	.serviceDetail .servicePicture .cP1 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP1:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP2 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;	
+
+	}
+	.serviceDetail .servicePicture .cP2:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP3 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+		
+	}
+	.serviceDetail .servicePicture .cP3:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP4 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP4:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePictureDetail {
+		float: left;
+		width: 45em;
+		height: 45em;
+		background-color: white;
+		margin-top: 4em;
+		margin-left: 1em;
+	}
+
+	.serviceDetail .servicePicture .clp {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+	}
+
+	*/
+
+
+	/*------------*/
+	.members {
+		width: 100%;
+		height: 50em;
+		text-align: center;
+
+	}
+	.members #about {
+		visibility: none;
+	}
+	.members h1 {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	.members .portraitFrame {
+		width: 100%;
+		height: 40em;
+	}
+	.members .portrait {
+		float: left;
+		width: 40%;
+		height: 100%;
+		background-color: grey;
+		margin-left: 10%;
+	}
+	.members .portraitText {
+		float: left;
+		width: 40%;
+		height: 100%;
+		background-color: #EAEAEA;
+	}
+
+
+
+	/*-----------*/
+	.aboutDoctor {
+		width: 100%;
+		height: 50em;
+		text-align: center;
+	}
+	.aboutDoctor h1 {
+		margin-top: 3em;
+	}
+	.aboutDoctor .certBox1 {
+		float: left;
+		padding-top: 5em;
+		width: 30%;
+		height: 50%;
+	}
+	.aboutDoctor .certBox2 {
+		float: left;
+		padding-top: 9em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox3 {
+		float: left;
+		padding-top: 9em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox4 {
+		float: left;
+		padding-top: 9em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .boxStyle {
+		margin: 1%;
+	}
+	.aboutDoctor .boxStyle:hover {
+		cursor: pointer;
+	}
+	.aboutDoctor .certBox1 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox2 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox3 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox4 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+
+	.aboutDoctor .certBox1 .cbi1 {
+		width: 100%;
+		height: 20%;
+		font-size: 2em;
+
+	}
+	.aboutDoctor .certBox2 .cbi2 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox3 .cbi3 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox4 .cbi4 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+
+
+
+	/*-----------*/
+
+
+	.location {
+		width: 100%;
+		height: 62em;
+		text-align: center;
+		background-color: #EAEAEA;
+	}
+
+	.location #lt {
+		padding-top: 3em;
+	}
+
+	.mapDetail h1 {
+		margin-top: 1em;
+		text-align: left;
+		margin-top: 2em;
+		margin-left: 2em;
+	}
+
+	.location .mapFrame {
+		float: left;
+		width: 40%;
+		height: 40em;
+		background-color: grey;
+		margin-top: 5em;
+		margin-left: 10%;
+	}
+	.location .mapDetail {
+		float: left;
+		width: 40%;
+		height: 30em;
+		background-color: lightgrey;
+		font-size:1em;
+		margin-top: 10em;
+
+	}
+	.locationAddress{
+		margin-top: 1em;
+		font-size: 1.5em;
+	}
+	.lP {
+		margin-top: 0.5em;
+		font-size: 1.5em;
+		
+	}
+	.lP a {
+		text-decoration: none;
+		color: black;
+	}
+	.lP a:hover {
+		text-decoration: underline;
+		text-decoration-color: crimson;
+	}
+	.lF {
+		font-size: 1.5em;
+		
+	}
+
+
+	/*--------*/
+	footer {
+		margin-top: 0em;
+		bottom: 0;
+		width: 100%;
+		height: 35em;
+		background-color: #725ae7;
+		color: white;
+	}
+
+	.label {
+		font-size: 2em;
+		padding-top: 1em;
+	}
+	.label p {
+		margin-bottom: 0.5em;
+	}
+
+	.oH {
+		float: left;
+		font-size: 1.2em;
+		font-family: consolas;
+		margin-left: 10%;
+		border-left: 0.1em solid white;
+		margin-top: 3em;
+	}
+	.oH .ohTitle {
+		text-align: center;
+	}
+	.oH .dow {
+		margin: 0.5em;
+	}
+	.oH span {
+	}
+	.name {
+		float: left;
+		padding-top: 1em;
+		width: 30%;
+		font-size: 2em;
+		margin-bottom: 0.5em;
+		margin-left: 13%;
+	}
+	.name p {
+		text-align: left;
+		margin-left: 10%;
+	}
+	.name .Dtitle {
+		font-size: 0.8em;
+	}
+	.socialMedia {
+		float: left;
+		margin-top: 3em;
+		text-align: center;
+	}
+	.socialMedia a {
+		text-decoration: none;
+		font-size: 3em;
+		color: white;
+		margin: 2em 1.5em;
+	}	
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	nav {
+		width: 100%;
+		font-size: 1.3em;
+		line-height: 2em;
+		background-color: white;
+		position: fixed;
+		top: 0;
+		z-index: 5;
+		text-align: center;
+
+	}
+	.clinic {
+		display: block;
+		text-align: center;
+		position: absolute;
+		margin-left: 7%;
+	}
+
+	nav ul {
+		width: 100%;
+		margin-left: 40%;
+		background-color: #725ae7;
+	    color: black;
+	    height: 0em;
+		border-bottom: 2em solid #725ae7;
+   		border-left: 2em solid white;
+   		text-align: left;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin:0 1em;
+		cursor: pointer;
+	}
+	nav ul li:not(:last-child) {
+		box-sizing: border-box;
+	}
+	nav ul li a {
+		cursor: pointer;
+		color: white;
+		text-decoration: none;
+	}
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+	/*
+	nav ul .phone {
+		font-size: 0.8em;
+		line-height: 2.5em;
+
+	}
+	*/
+
+	.bannerPicture {
+		width: 100%;
+		height: 40em;
+		z-index: 1;
+		background-color: #725ae7;
+		margin-top: 0em;
+	}
+
+	.bannerPicture .bannerText {
+		position: absolute;
+		top: 7em;
+		left: 38%;
+		color: white;
+		font-size: 1em;
+	}
+
+	.bannerPicture .bannerText .mI {
+		display: block;
+		margin-top: 1em;
+		width: 5em;
+		height: 2em;
+		font-size: 1.5em;
+		background-color: white;
+		border-radius: 1.5em;
+		border: 0em solid black;
+	}
+
+	.bannerPicture .bannerText a {
+		text-decoration: none;
+		color: black;
+	}
+	.bannerPicture .bannerText h1, p {
+		text-align: center;
+	}
+	.bannerPicture .bannerText p {
+		font-size: 1.5em;
+	}
+	#rotateText {
+		text-align: center;
+		margin-top: 2em;
+		font-size: 2em;
+	}
+	.bannerAddress {
+		text-align: center;
+		margin-top: 3em;
+		font-size: 1.5em;
+	}
+	.phone {
+		margin-top: 1em;
+	}
+
+	/*--------*/
+	.service {
+		width: 100%;
+		height: 30em;
+		margin-top: 0em;
+		text-align: center;
+	}
+	.service h1 {
+		margin-top: 1em;
+	}
+	.service .box {
+		float: left;
+		width: 20%;
+		height: 20em;
+		background-color: white;
+		margin: 1em 2.5%;
+		position: relative;
+	}
+	.service .box .boxPictureFrame {
+		width: 100%;
+		height: 100%;
+	}
+	.service .box .boxPictureFrame .boxPicture {
+		width: 100%;
+		height: 80%;
+	}
+	.service .box .boxTitle {
+		width: 100%;
+		height: 20%;
+		background-color: black;
+		line-height: 4em;
+		color: white;
+	}
+	.service .box .boxPictureFrame .boxPicture:hover {
+		cursor: pointer;
+		box-shadow: 0em 0em 0.3em black;
+	}
+
+
+
+
+	/*-----------
+	#arrowup {
+		font-size:3em;
+		position: absolute;
+		float: left;
+		margin-left: -19em;
+		color: black;
+		cursor: pointer;
+	}
+	.serviceDetail {
+		width: 100%;
+		height: 58em;
+		background-color: #F5F5F5;
+		text-align: center;
+	}
+	.serviceDetail h1 {
+		padding-top: 1em;
+	}
+	.serviceDetail .servicePicture {
+		float: left;
+		width:  45%;
+		height: 85%;
+		background-color: white;	
+		margin-top: 2em;
+		margin-left: 12%;
+	}
+	.serviceDetail .servicePicture .cP1 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP1:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP2 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;	
+
+	}
+	.serviceDetail .servicePicture .cP2:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP3 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+		
+	}
+	.serviceDetail .servicePicture .cP3:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP4 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP4:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePictureDetail {
+		float: left;
+		width: 45em;
+		height: 45em;
+		background-color: white;
+		margin-top: 4em;
+		margin-left: 1em;
+	}
+
+	.serviceDetail .servicePicture .clp {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+	}
+
+	*/
+
+
+	/*------------*/
+	.members {
+		width: 100%;
+		height: 50em;
+		text-align: center;
+
+	}
+	.members #about {
+		visibility: none;
+	}
+	.members h1 {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	.members .portraitFrame {
+		width: 100%;
+		height: 40em;
+	}
+	.members .portrait {
+		float: left;
+		width: 40%;
+		height: 100%;
+		background-color: grey;
+		margin-left: 10%;
+	}
+	.members .portraitText {
+		float: left;
+		width: 50%;
+		height: 100%;
+		background-color: #EAEAEA;
+	}
+
+
+
+	/*-----------*/
+	.aboutDoctor {
+		width: 100%;
+		height: 50em;
+		text-align: center;
+	}
+	.aboutDoctor h1 {
+		margin-top: 3em;
+	}
+	.aboutDoctor .certBox1 {
+		float: left;
+		padding-top: 5em;
+		width: 30%;
+		height: 50%;
+	}
+	.aboutDoctor .certBox2 {
+		float: left;
+		padding-top: 9em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox3 {
+		float: left;
+		padding-top: 9em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox4 {
+		float: left;
+		padding-top: 9em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .boxStyle {
+		margin: 1%;
+	}
+	.aboutDoctor .boxStyle:hover {
+		cursor: pointer;
+	}
+	.aboutDoctor .certBox1 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox2 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox3 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox4 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+
+	.aboutDoctor .certBox1 .cbi1 {
+		width: 100%;
+		height: 20%;
+		font-size: 2em;
+
+	}
+	.aboutDoctor .certBox2 .cbi2 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox3 .cbi3 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox4 .cbi4 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+
+
+
+	/*-----------*/
+
+
+	.location {
+		width: 100%;
+		height: 62em;
+		text-align: center;
+		background-color: #EAEAEA;
+	}
+	.mapDetail h1 {
+		margin-top: 1em;
+		text-align: left;
+		margin-top: 1em;
+		margin-left: 2em;
+	}
+
+	.location #lt {
+		padding-top: 3em;
+	}
+
+	
+
+	.location .mapFrame {
+		float: left;
+		width: 40%;
+		height: 30em;
+		background-color: grey;
+		margin-top: 5em;
+		margin-left: 10%;
+	}
+	.location .mapDetail {
+		float: left;
+		width: 40%;
+		height: 25em;
+		background-color: lightgrey;
+		font-size:1em;
+		margin-top: 7.5em;
+
+	}
+
+	.locationAddress{
+		margin-top: 1em;
+		font-size: 1.5em;
+	}
+	.lP {
+		margin-top: 0.5em;
+		font-size: 1.5em;
+		
+	}
+	.lP a {
+		text-decoration: none;
+		color: black;
+	}
+	.lP a:hover {
+		text-decoration: underline;
+		text-decoration-color: crimson;
+	}
+	.lF {
+		font-size: 1.5em;
+		
+	}
+
+
+	/*--------*/
+	footer {
+		margin-top: 0em;
+		bottom: 0;
+		width: 100%;
+		height: 35em;
+		background-color: #725ae7;
+		color: white;
+	}
+
+	.label {
+		font-size: 2em;
+		padding-top: 1em;
+	}
+	.label p {
+		margin-bottom: 0.5em;
+	}
+
+	.oH {
+		float: left;
+		font-size: 1.2em;
+		font-family: consolas;
+		margin-left: 10%;
+		border-left: 0.1em solid white;
+		margin-top: 3em;
+	}
+	.oH .ohTitle {
+		text-align: center;
+	}
+	.oH .dow {
+		margin: 0.5em;
+	}
+	.oH span {
+	}
+	.name {
+		float: left;
+		padding-top: 1em;
+		width: 30%;
+		font-size: 2em;
+		margin-bottom: 0.5em;
+		margin-left: 13%;
+	}
+	.name p {
+		text-align: left;
+		margin-left: 10%;
+	}
+	.name .Dtitle {
+		font-size: 0.8em;
+	}
+	.socialMedia {
+		float: left;
+		margin-top: 3em;
+		text-align: center;
+	}
+	.socialMedia a {
+		text-decoration: none;
+		font-size: 3em;
+		color: white;
+		margin: 2em 1.5em;
+	}
+
+}
+
+/*
+	Tablet, ipads (portrait)
+	screen 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+	nav {
+		width: 100%;
+		font-size: 1em;
+		line-height: 2em;
+		background-color: white;
+		position: fixed;
+		top: 0;
+		z-index: 5;
+		text-align: center;
+
+	}
+	.clinic {
+		display: block;
+		text-align: center;
+		position: absolute;
+		margin-left: 7%;
+	}
+
+	nav ul {
+		width: 100%;
+		margin-left: 40%;
+		background-color: #725ae7;
+	    color: black;
+	    height: 0em;
+		border-bottom: 2em solid #725ae7;
+   		border-left: 2em solid white;
+   		text-align: left;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin:0 1em;
+		cursor: pointer;
+	}
+	nav ul li:not(:last-child) {
+		box-sizing: border-box;
+	}
+	nav ul li a {
+		cursor: pointer;
+		color: white;
+		text-decoration: none;
+	}
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+	/*
+	nav ul .phone {
+		font-size: 0.8em;
+		line-height: 2.5em;
+
+	}
+	*/
+
+	.bannerPicture {
+		width: 100%;
+		height: 40em;
+		z-index: 1;
+		background-color: #725ae7;
+		margin-top: 0em;
+	}
+
+	.bannerPicture .bannerText {
+		position: absolute;
+		top: 7em;
+		left: 35%;
+		color: white;
+		font-size: 1em;
+	}
+
+	.bannerPicture .bannerText .mI {
+		display: block;
+		margin-top: 1em;
+		width: 5em;
+		height: 2em;
+		font-size: 1.5em;
+		background-color: white;
+		border-radius: 1.5em;
+		border: 0em solid black;
+	}
+
+	.bannerPicture .bannerText a {
+		text-decoration: none;
+		color: black;
+	}
+	.bannerPicture .bannerText h1, p {
+		text-align: center;
+	}
+	.bannerPicture .bannerText p {
+		font-size: 1.5em;
+	}
+	#rotateText {
+		text-align: center;
+		margin-top: 2em;
+		font-size: 2em;
+	}
+	.bannerAddress {
+		text-align: center;
+		margin-top: 3em;
+		font-size: 1.5em;
+	}
+	.phone {
+		margin-top: 1em;
+	}
+
+	/*--------*/
+	.service {
+		width: 100%;
+		height: 30em;
+		margin-top: 0em;
+		text-align: center;
+	}
+	.service h1 {
+		margin-top: 1em;
+	}
+	.service .box {
+		float: left;
+		width: 20%;
+		height: 15em;
+		background-color: white;
+		margin: 1em 2.5%;
+		position: relative;
+	}
+	.service .box .boxPictureFrame {
+		width: 100%;
+		height: 100%;
+	}
+	.service .box .boxPictureFrame .boxPicture {
+		width: 100%;
+		height: 80%;
+	}
+	.service .box .boxTitle {
+		width: 100%;
+		height: 20%;
+		background-color: black;
+		line-height: 3em;
+		color: white;
+	}
+	.service .box .boxPictureFrame .boxPicture:hover {
+		cursor: pointer;
+		box-shadow: 0em 0em 0.3em black;
+	}
+
+
+
+
+	/*-----------
+	#arrowup {
+		font-size:3em;
+		position: absolute;
+		float: left;
+		margin-left: -19em;
+		color: black;
+		cursor: pointer;
+	}
+	.serviceDetail {
+		width: 100%;
+		height: 58em;
+		background-color: #F5F5F5;
+		text-align: center;
+	}
+	.serviceDetail h1 {
+		padding-top: 1em;
+	}
+	.serviceDetail .servicePicture {
+		float: left;
+		width:  45%;
+		height: 85%;
+		background-color: white;	
+		margin-top: 2em;
+		margin-left: 12%;
+	}
+	.serviceDetail .servicePicture .cP1 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP1:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP2 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;	
+
+	}
+	.serviceDetail .servicePicture .cP2:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP3 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+		
+	}
+	.serviceDetail .servicePicture .cP3:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP4 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP4:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePictureDetail {
+		float: left;
+		width: 45em;
+		height: 45em;
+		background-color: white;
+		margin-top: 4em;
+		margin-left: 1em;
+	}
+
+	.serviceDetail .servicePicture .clp {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+	}
+
+	*/
+
+
+	/*------------*/
+	.members {
+		width: 100%;
+		height: 50em;
+		text-align: center;
+
+	}
+	.members #about {
+		visibility: none;
+	}
+	.members h1 {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	.members .portraitFrame {
+		width: 100%;
+		height: 40em;
+	}
+	.members .portrait {
+		float: left;
+		width: 40%;
+		height: 100%;
+		background-color: grey;
+		margin-left: 5%;
+	}
+	.members .portraitText {
+		float: left;
+		width: 50%;
+		height: 100%;
+		background-color: #EAEAEA;
+	}
+
+
+
+	/*-----------*/
+	.aboutDoctor {
+		width: 100%;
+		height: 40em;
+		text-align: center;
+	}
+	.aboutDoctor h1 {
+		margin-top: 3em;
+	}
+	.aboutDoctor .certBox1 {
+		float: left;
+		padding-top: 5em;
+		width: 30%;
+		height: 50%;
+	}
+	.aboutDoctor .certBox2 {
+		float: left;
+		padding-top: 8em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox3 {
+		float: left;
+		padding-top: 8em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox4 {
+		float: left;
+		padding-top: 8em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .boxStyle {
+		margin: 1%;
+	}
+	.aboutDoctor .boxStyle:hover {
+		cursor: pointer;
+	}
+	.aboutDoctor .certBox1 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox2 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox3 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox4 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+
+	.aboutDoctor .certBox1 .cbi1 {
+		width: 100%;
+		height: 20%;
+		font-size: 2em;
+
+	}
+	.aboutDoctor .certBox2 .cbi2 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox3 .cbi3 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox4 .cbi4 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+
+
+
+	/*-----------*/
+
+
+	.location {
+		width: 100%;
+		height: 62em;
+		text-align: center;
+		background-color: #EAEAEA;
+	}
+	.mapDetail h1 {
+		margin-top: 1em;
+		text-align: left;
+		margin-top: 1em;
+		margin-left: 2em;
+	}
+
+	.location #lt {
+		padding-top: 3em;
+	}
+
+	
+
+	.location .mapFrame {
+		float: left;
+		width: 40%;
+		height: 30em;
+		background-color: grey;
+		margin-top: 5em;
+		margin-left: 10%;
+	}
+	.location .mapDetail {
+		float: left;
+		width: 40%;
+		height: 25em;
+		background-color: lightgrey;
+		font-size:1em;
+		margin-top: 7.5em;
+
+	}
+
+	.locationAddress{
+		margin-top: 1em;
+		font-size: 1.5em;
+	}
+	.lP {
+		margin-top: 0.5em;
+		font-size: 1.5em;
+		
+	}
+	.lP a {
+		text-decoration: none;
+		color: black;
+	}
+	.lP a:hover {
+		text-decoration: underline;
+		text-decoration-color: crimson;
+	}
+	.lF {
+		font-size: 1.5em;
+		
+	}
+
+
+	/*--------*/
+	footer {
+		margin-top: 0em;
+		bottom: 0;
+		width: 100%;
+		height: 35em;
+		background-color: #725ae7;
+		color: white;
+	}
+
+	.label {
+		font-size: 1.2em;
+		padding-top: 1em;
+	}
+	.label p {
+		margin-bottom: 0.5em;
+	}
+
+	.oH {
+		float: left;
+		font-size: 1.2em;
+		font-family: consolas;
+		margin-left: 10%;
+		border-left: 0.1em solid white;
+		margin-top: 3em;
+	}
+	.oH .ohTitle {
+		text-align: center;
+	}
+	.oH .dow {
+		margin: 0.5em;
+	}
+	.oH span {
+	}
+	.name {
+		float: left;
+		padding-top: 1em;
+		width: 30%;
+		font-size: 1.2em;
+		margin-bottom: 0.5em;
+		margin-left: 13%;
+	}
+	.name p {
+		text-align: left;
+		margin-left: 10%;
+	}
+	.name .Dtitle {
+		font-size: 0.8em;
+	}
+	.socialMedia {
+		float: left;
+		margin-top: 3em;
+		text-align: center;
+		margin-left: 20%;
+	}
+	.socialMedia a {
+		text-decoration: none;
+		font-size: 2em;
+		color: white;
+		margin: 2em 1.5em;
+	}
+
+}
+
+
+/*
+	tablets, ipads (landscape)
+	screen 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+	nav {
+		width: 100%;
+		font-size: 1em;
+		line-height: 2em;
+		background-color: white;
+		position: fixed;
+		top: 0;
+		z-index: 5;
+		text-align: center;
+
+	}
+	.clinic {
+		display: block;
+		text-align: center;
+		position: absolute;
+		margin-left: 7%;
+	}
+
+	nav ul {
+		width: 100%;
+		margin-left: 40%;
+		background-color: #725ae7;
+	    color: black;
+	    height: 0em;
+		border-bottom: 2em solid #725ae7;
+   		border-left: 2em solid white;
+   		text-align: left;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin:0 1em;
+		cursor: pointer;
+	}
+	nav ul li:not(:last-child) {
+		box-sizing: border-box;
+	}
+	nav ul li a {
+		cursor: pointer;
+		color: white;
+		text-decoration: none;
+	}
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+	/*
+	nav ul .phone {
+		font-size: 0.8em;
+		line-height: 2.5em;
+
+	}
+	*/
+
+	.bannerPicture {
+		width: 100%;
+		height: 40em;
+		z-index: 1;
+		background-color: #725ae7;
+		margin-top: 0em;
+	}
+
+	.bannerPicture .bannerText {
+		position: absolute;
+		top: 7em;
+		left: 35%;
+		color: white;
+		font-size: 1em;
+	}
+
+	.bannerPicture .bannerText .mI {
+		display: block;
+		margin-top: 1em;
+		width: 5em;
+		height: 2em;
+		font-size: 1.5em;
+		background-color: white;
+		border-radius: 1.5em;
+		border: 0em solid black;
+	}
+
+	.bannerPicture .bannerText a {
+		text-decoration: none;
+		color: black;
+	}
+	.bannerPicture .bannerText h1, p {
+		text-align: center;
+	}
+	.bannerPicture .bannerText p {
+		font-size: 1.5em;
+	}
+	#rotateText {
+		text-align: center;
+		margin-top: 2em;
+		font-size: 2em;
+	}
+	.bannerAddress {
+		text-align: center;
+		margin-top: 3em;
+		font-size: 1.5em;
+	}
+	.phone {
+		margin-top: 1em;
+	}
+
+	/*--------*/
+	.service {
+		width: 100%;
+		height: 30em;
+		margin-top: 0em;
+		text-align: center;
+	}
+	.service h1 {
+		margin-top: 1em;
+	}
+	.service .box {
+		float: left;
+		width: 20%;
+		height: 15em;
+		background-color: white;
+		margin: 1em 2.5%;
+		position: relative;
+	}
+	.service .box .boxPictureFrame {
+		width: 100%;
+		height: 100%;
+	}
+	.service .box .boxPictureFrame .boxPicture {
+		width: 100%;
+		height: 80%;
+	}
+	.service .box .boxTitle {
+		width: 100%;
+		height: 20%;
+		background-color: black;
+		line-height: 3em;
+		color: white;
+	}
+	.service .box .boxPictureFrame .boxPicture:hover {
+		cursor: pointer;
+		box-shadow: 0em 0em 0.3em black;
+	}
+
+
+
+
+	/*-----------
+	#arrowup {
+		font-size:3em;
+		position: absolute;
+		float: left;
+		margin-left: -19em;
+		color: black;
+		cursor: pointer;
+	}
+	.serviceDetail {
+		width: 100%;
+		height: 58em;
+		background-color: #F5F5F5;
+		text-align: center;
+	}
+	.serviceDetail h1 {
+		padding-top: 1em;
+	}
+	.serviceDetail .servicePicture {
+		float: left;
+		width:  45%;
+		height: 85%;
+		background-color: white;	
+		margin-top: 2em;
+		margin-left: 12%;
+	}
+	.serviceDetail .servicePicture .cP1 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP1:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP2 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;	
+
+	}
+	.serviceDetail .servicePicture .cP2:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP3 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+		
+	}
+	.serviceDetail .servicePicture .cP3:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP4 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP4:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePictureDetail {
+		float: left;
+		width: 45em;
+		height: 45em;
+		background-color: white;
+		margin-top: 4em;
+		margin-left: 1em;
+	}
+
+	.serviceDetail .servicePicture .clp {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+	}
+
+	*/
+
+
+	/*------------*/
+	.members {
+		width: 100%;
+		height: 50em;
+		text-align: center;
+
+	}
+	.members #about {
+		visibility: none;
+	}
+	.members h1 {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	.members .portraitFrame {
+		width: 100%;
+		height: 40em;
+	}
+	.members .portrait {
+		float: left;
+		width: 40%;
+		height: 100%;
+		background-color: grey;
+		margin-left: 5%;
+	}
+	.members .portraitText {
+		float: left;
+		width: 50%;
+		height: 100%;
+		background-color: #EAEAEA;
+	}
+
+
+
+	/*-----------*/
+	.aboutDoctor {
+		width: 100%;
+		height: 40em;
+		text-align: center;
+	}
+	.aboutDoctor h1 {
+		margin-top: 3em;
+	}
+	.aboutDoctor .certBox1 {
+		float: left;
+		padding-top: 5em;
+		width: 30%;
+		height: 50%;
+	}
+	.aboutDoctor .certBox2 {
+		float: left;
+		padding-top: 8em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox3 {
+		float: left;
+		padding-top: 8em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .certBox4 {
+		float: left;
+		padding-top: 8em;
+		width: 20%;
+		height: 32%;
+	}
+	.aboutDoctor .boxStyle {
+		margin: 1%;
+	}
+	.aboutDoctor .boxStyle:hover {
+		cursor: pointer;
+	}
+	.aboutDoctor .certBox1 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox2 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox3 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox4 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+
+	.aboutDoctor .certBox1 .cbi1 {
+		width: 100%;
+		height: 20%;
+		font-size: 2em;
+
+	}
+	.aboutDoctor .certBox2 .cbi2 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox3 .cbi3 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox4 .cbi4 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+
+
+
+	/*-----------*/
+
+
+	.location {
+		width: 100%;
+		height: 62em;
+		text-align: center;
+		background-color: #EAEAEA;
+	}
+	.mapDetail h1 {
+		margin-top: 1em;
+		text-align: left;
+		margin-top: 1em;
+		margin-left: 2em;
+	}
+
+	.location #lt {
+		padding-top: 3em;
+	}
+
+	
+
+	.location .mapFrame {
+		float: left;
+		width: 40%;
+		height: 30em;
+		background-color: grey;
+		margin-top: 5em;
+		margin-left: 10%;
+	}
+	.location .mapDetail {
+		float: left;
+		width: 40%;
+		height: 25em;
+		background-color: lightgrey;
+		font-size:1em;
+		margin-top: 7.5em;
+
+	}
+
+	.locationAddress{
+		margin-top: 1em;
+		font-size: 1.5em;
+	}
+	.lP {
+		margin-top: 0.5em;
+		font-size: 1.5em;
+		
+	}
+	.lP a {
+		text-decoration: none;
+		color: black;
+	}
+	.lP a:hover {
+		text-decoration: underline;
+		text-decoration-color: crimson;
+	}
+	.lF {
+		font-size: 1.5em;
+		
+	}
+
+
+	/*--------*/
+	footer {
+		margin-top: 0em;
+		bottom: 0;
+		width: 100%;
+		height: 35em;
+		background-color: #725ae7;
+		color: white;
+	}
+
+	.label {
+		font-size: 1.2em;
+		padding-top: 1em;
+	}
+	.label p {
+		margin-bottom: 0.5em;
+	}
+
+	.oH {
+		float: left;
+		font-size: 1.2em;
+		font-family: consolas;
+		margin-left: 10%;
+		border-left: 0.1em solid white;
+		margin-top: 3em;
+	}
+	.oH .ohTitle {
+		text-align: center;
+	}
+	.oH .dow {
+		margin: 0.5em;
+	}
+	.oH span {
+	}
+	.name {
+		float: left;
+		padding-top: 1em;
+		width: 30%;
+		font-size: 1.2em;
+		margin-bottom: 0.5em;
+		margin-left: 13%;
+	}
+	.name p {
+		text-align: left;
+		margin-left: 10%;
+	}
+	.name .Dtitle {
+		font-size: 0.8em;
+	}
+	.socialMedia {
+		float: left;
+		margin-top: 3em;
+		text-align: center;
+		margin-left: 20%;
+	}
+	.socialMedia a {
+		text-decoration: none;
+		font-size: 2em;
+		color: white;
+		margin: 2em 1.5em;
+	}
+}
+
+/*
+	low resolution tablets and mobiles (lanscape)
+	screen 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+	nav {
+		width: 100%;
+		font-size: 1em;
+		line-height: 2em;
+		background-color: white;
+		position: relative;
+		top: 0;
+		z-index: 5;
+		text-align: center;
+	}
+	.clinic {
+		display: block;
+		text-align: center;
+	}
+
+	nav ul {
+		width: 100%;
+		background-color: #725ae7;
+	    color: black;
+	}
+
+	nav ul li {
+		display: inline-block;
+		margin: 0em 1em;
+		cursor: pointer;
+	}
+	nav ul li:not(:last-child) {
+		box-sizing: border-box;
+	}
+	nav ul li a {
+		cursor: pointer;
+		color: white;
+		text-decoration: none;
+	}
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+	/*
+	nav ul .phone {
+		font-size: 0.8em;
+		line-height: 2.5em;
+
+	}
+	*/
+
+	.bannerPicture {
+		width: 100%;
+		height: 20em;
+		z-index: 1;
+		background-color: #725ae7;
+		margin-top: 0.1em;
+	}
+
+	.bannerPicture .bannerText {
+		position: absolute;
+		top: 5em;
+		left: 30%;
+		color: white;
+		font-size: 1em;
+
+		
+	}
+	.bannerPicture .bannerText .mI {
+		display: block;
+		margin: 0 auto;
+		margin-top: 1em;
+		width: 5em;
+		height: 2em;
+		font-size: 1em;
+		background-color: white;
+		border-radius: 1.5em;
+		border: 0em solid black;
+		
+	}
+
+	.bannerPicture .bannerText a {
+		text-decoration: none;
+		color: black;
+	}
+	.bannerPicture .bannerText h1, p {
+		text-align: center;
+	}
+	.bannerPicture .bannerText p {
+		font-size: 1.2em;
+	}
+	#rotateText {
+		text-align: center;
+		margin-top: 0.5em;
+		font-size: 1.5em;
+	}
+	.bannerAddress {
+		text-align: center;
+		margin-top: 1em;
+		font-size: 1em;
+	}
+	.phone {
+		margin-top: 1em;
+	}
+
+	/*--------*/
+	.service {
+		width: 100%;
+		height: 130em;
+		margin-top: 0em;
+		text-align: center;
+	}
+	.service h1 {
+		margin-top: 0.5em;
+	}
+	.service .box {
+		float: left;
+		width: 100%;
+		height: 30em;
+		background-color: white;
+		margin: 1em 0em;
+		position: relative;
+	}
+	.service .box .boxPictureFrame {
+		width: 100%;
+		height: 100%;
+	}
+	.service .box .boxPictureFrame .boxPicture {
+		width: 100%;
+		height: 80%;
+	}
+	.service .box .boxTitle {
+		width: 100%;
+		height: 20%;
+		background-color: black;
+		line-height: 5em;
+		color: white;
+	}
+	.service .box .boxPictureFrame .boxPicture:hover {
+		cursor: pointer;
+		box-shadow: 0em 0em 0.3em black;
+	}
+
+
+
+
+	/*-----------
+	#arrowup {
+		font-size:3em;
+		position: absolute;
+		float: left;
+		margin-left: -19em;
+		color: black;
+		cursor: pointer;
+	}
+	.serviceDetail {
+		width: 100%;
+		height: 58em;
+		background-color: #F5F5F5;
+		text-align: center;
+	}
+	.serviceDetail h1 {
+		padding-top: 1em;
+	}
+	.serviceDetail .servicePicture {
+		float: left;
+		width:  45%;
+		height: 85%;
+		background-color: white;	
+		margin-top: 2em;
+		margin-left: 12%;
+	}
+	.serviceDetail .servicePicture .cP1 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP1:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP2 {
+		float: left;
+		width: 48.5%;
+		height: 48.5%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;	
+
+	}
+	.serviceDetail .servicePicture .cP2:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP3 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+		
+	}
+	.serviceDetail .servicePicture .cP3:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePicture .cP4 {
+		float: left;
+		width: 48.5%;
+		height: 48%;
+		background-color: grey;
+		box-sizing: border-box;
+		margin-top: 1%;
+		margin-left: 1%;
+
+	}
+	.serviceDetail .servicePicture .cP4:hover {
+		box-shadow: 0em 0em 0.1em blue;
+		cursor: pointer;
+	}
+
+	.serviceDetail .servicePictureDetail {
+		float: left;
+		width: 45em;
+		height: 45em;
+		background-color: white;
+		margin-top: 4em;
+		margin-left: 1em;
+	}
+
+	.serviceDetail .servicePicture .clp {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+	}
+
+	*/
+
+
+	/*------------*/
+	.members {
+		width: 100%;
+		height: 40em;
+		text-align: center;
+	}
+	.members #about {
+		visibility: none;
+	}
+	.members h1 {
+		font-size: 1.5em;
+	}
+	.members .portraitFrame {
+		width: 100%;
+		height: 30em;
+	}
+	.portraitFrame .portrait {
+		display: none;
+	}
+	.members .portraitText {
+		width: 100%;
+		height: 100%;
+		background-color: #EAEAEA;
+	}
+
+
+
+	/*-----------*/
+	.aboutDoctor {
+		width: 100%;
+		height: 35em;
+		text-align: center;
+	}
+	.aboutDoctor h1 {
+	}
+	.aboutDoctor .certBox1 {
+		float: left;
+		width: 10em;
+		height: 10em;
+	}
+	.aboutDoctor .certBox2 {
+		float: left;
+		width: 10em;
+		height: 10em;
+	}
+	.aboutDoctor .certBox3 {
+		float: left;
+		width: 10em;
+		height: 10em;
+	}
+	.aboutDoctor .certBox4 {
+		float: left;
+		width: 10em;
+		height: 10em;
+	}
+	.aboutDoctor .boxStyle {
+		margin: 2.5em;
+	}
+	.aboutDoctor .boxStyle:hover {
+		cursor: pointer;
+	}
+	.aboutDoctor .certBox1 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox2 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox3 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+	.aboutDoctor .certBox4 .cbp {
+		width: 100%;
+		height: 80%;
+		background-color: grey;
+	}
+
+	.aboutDoctor .certBox1 .cbi1 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+
+	}
+	.aboutDoctor .certBox2 .cbi2 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox3 .cbi3 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+	.aboutDoctor .certBox4 .cbi4 {
+		width: 100%;
+		height: 20%;
+		font-size: 1em;
+		
+	}
+
+
+
+	/*-----------*/
+
+
+	.location {
+		width: 100%;
+		height: 50em;
+		text-align: center;
+		background-color: #EAEAEA;
+	}
+
+	.location #lt {
+		padding-top: 2em;
+	}
+
+	.mapDetail h1 {
+		margin-top: 1em;
+		text-align: left;
+		margin-top: 2em;
+		margin-left: 2%;
+	}
+
+	.location .mapFrame {
+
+		width: 100%;
+		height: 20em;
+		background-color: grey;
+		margin-top: 2em;
+	}
+	.location .mapDetail {
+		float: left;
+		width: 100%;
+		height: 30em;
+		background-color: lightgrey;
+		font-size:1em;
+	}
+	.locationAddress{
+		margin-top: 0.5em;
+		font-size: 1.5em;
+	}
+	.lP {
+		margin-top: 1em;
+		font-size: 1.5em;
+		
+	}
+	.lP a {
+		text-decoration: none;
+		color: black;
+	}
+	.lP a:hover {
+		text-decoration: underline;
+		text-decoration-color: crimson;
+	}
+	.lF {
+		font-size: 1.5em;
+		
+	}
+
+
+	/*--------*/
+
+	footer {
+		clear: both;
+		margin-top: 0em;
+		bottom: 0;
+		width: 100%;
+		height: 30em;
+		background-color: #725ae7;
+		color: white;
+	}
+
+	.label {
+		font-size: 1.3em;
+	}
+	.label p {
+		margin-bottom: 0.5em;
+	}
+	.oH {
+		font-size: 1.2em;
+		font-family: consolas;
+	}
+	.oH p{
+	}
+	.oH .ohTitle {
+		text-align: center;
+	}
+	.oH .dow {
+		margin: 0.5em;
+	}
+	.oH span {
+	}
+	.name {
+		padding-top: 1em;
+		width: 100%;
+		font-size: 2em;
+		margin-bottom: 0.5em;
+	}
+	.name .Dtitle {
+		font-size: 0.8em;
+	}
+	.socialMedia {
+		margin-top: 0.5em;
+		margin-left: 40%;
+	}
+	.socialMedia a {
+		text-decoration: none;
+		font-size: 1.5em;
+		color: white;
+		margin: 0.5em;
+	}
+}
+
