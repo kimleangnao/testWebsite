@@ -108,88 +108,88 @@
 
 	certBox1.addEventListener('click', function(){
 		certBox1.style.width = '30%';
-		certBox1.style.height = '50%';
+		certBox1.style.height = '60%';
 		certBox1.style.paddingTop = '5em';
 		cbi1.style.fontSize = '2em';
 
 		certBox2.style.width = '20%';
-		certBox2.style.height = '32%';
+		certBox2.style.height = '40%';
 		certBox2.style.paddingTop = '8em';
 		cbi2.style.fontSize = '1em';
 
 		certBox3.style.width = '20%';
-		certBox3.style.height = '32%';
+		certBox3.style.height = '40%';
 		certBox3.style.paddingTop = '8em';
 		cbi3.style.fontSize = '1em';
 
 		certBox4.style.width = '20%';
-		certBox4.style.height = '30%';
+		certBox4.style.height = '40%';
 		certBox4.style.paddingTop = '8em';
 		cbi4.style.fontSize = '1em';
 	});
 
 	certBox2.addEventListener('click', function(){
 		certBox1.style.width = '20%';
-		certBox1.style.height = '32%';
+		certBox1.style.height = '40%';
 		certBox1.style.paddingTop = '8em';
 		cbi1.style.fontSize = '1em';
 
 		certBox2.style.width = '30%';
-		certBox2.style.height = '50%';
+		certBox2.style.height = '60%';
 		certBox2.style.paddingTop = '5em';
 		cbi2.style.fontSize = '2em';
 
 		certBox3.style.width = '20%';
-		certBox3.style.height = '32%';
+		certBox3.style.height = '40%';
 		certBox3.style.paddingTop = '8em';
 		cbi3.style.fontSize = '1em';
 
 		certBox4.style.width = '20%';
-		certBox4.style.height = '30%';
+		certBox4.style.height = '40%';
 		certBox4.style.paddingTop = '8em';
 		cbi4.style.fontSize = '1em';
 	});
 
 	certBox3.addEventListener('click', function(){
 		certBox1.style.width = '20%';
-		certBox1.style.height = '32%';
+		certBox1.style.height = '40%';
 		certBox1.style.paddingTop = '8em';
 		cbi1.style.fontSize = '1em';
 
 		certBox2.style.width = '20%';
-		certBox2.style.height = '32%';
+		certBox2.style.height = '40%';
 		certBox2.style.paddingTop = '8em';
 		cbi2.style.fontSize = '1em';
 
 		certBox3.style.width = '30%';
-		certBox3.style.height = '50%';
+		certBox3.style.height = '60%';
 		certBox3.style.paddingTop = '5em';
 		cbi3.style.fontSize = '2em';
 
 		certBox4.style.width = '20%';
-		certBox4.style.height = '30%';
+		certBox4.style.height = '40%';
 		certBox4.style.paddingTop = '8em';
 		cbi4.style.fontSize = '1em';
 	});
 
 	certBox4.addEventListener('click', function(){
 		certBox1.style.width = '20%';
-		certBox1.style.height = '32%';
+		certBox1.style.height = '40%';
 		certBox1.style.paddingTop = '8em';
 		cbi1.style.fontSize = '1em';
 
 		certBox2.style.width = '20%';
-		certBox2.style.height = '32%';
+		certBox2.style.height = '40%';
 		certBox2.style.paddingTop = '8em';
 		cbi2.style.fontSize = '1em';
 
 		certBox3.style.width = '20%';
-		certBox3.style.height = '32%';
+		certBox3.style.height = '40%';
 		certBox3.style.paddingTop = '8em';
 		cbi3.style.fontSize = '1em';
 
 		certBox4.style.width = '30%';
-		certBox4.style.height = '50%';
+		certBox4.style.height = '60%';
 		certBox4.style.paddingTop = '5em';
 		cbi4.style.fontSize = '2em';
 	});
