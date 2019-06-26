@@ -195,10 +195,4 @@
 	});
 
 
-
-
-	//Taking care of the service detail
-
-
-
 })();
