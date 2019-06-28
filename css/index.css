@@ -87,7 +87,8 @@ nav ul .phone {
 	background-color: white;
 	border-radius: 1.5em;
 	border: 0em solid black;
-	
+	line-height: 2em;
+	font-family: arial;
 }
 
 .bannerPicture .bannerText a {
